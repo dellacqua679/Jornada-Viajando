@@ -13,8 +13,8 @@
   --background-secondary-color: #f5f5f5;
   --background-terriary-color: #000000;
 
-  --texte-primary-color: #222222;
-  --texte-secondary-color: #ffffff;
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
@@ -35,4 +35,8 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
 }
