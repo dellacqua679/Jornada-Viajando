@@ -1,8 +1,8 @@
-.cards {
+.card {
   color: var(--text-secondary-color);
   background-color: black;
   width: 312px;
-  height: 88px;
+  height: 288px;
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
@@ -30,4 +32,5 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+  flex-direction:;
 }
