@@ -71,6 +71,10 @@ body {
   text-align: center;
 }
 
+.category h3 {
+  color: var(--background-terriary-color);
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
