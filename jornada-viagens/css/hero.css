@@ -4,20 +4,21 @@
   width: 100%;
 }
 
-.bottom-hero {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
 .hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
 .bottom-hero .hero-img {
-  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
+  background: url(../img/bg-hero-mobile.png) no-repeat;
   background-size: cover;
+}
+
+.bottom-hero {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero h2 {
@@ -38,7 +39,7 @@
 
   .bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+    background: url(../img/bg-hero-tablet.png);
     background-size: cover;
   }
 
@@ -50,14 +51,13 @@
 
 @media screen and (min-width: 1024px) {
   .hero .hero-img {
-    height: 620px;
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
   .bottom-hero .hero-img {
-    height: 620px;
-    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
+    height: 600px;
+    background: url(../img/bg-hero-desktop.png);
     background-size: cover;
   }
 }
