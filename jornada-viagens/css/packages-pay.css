@@ -1,0 +1,74 @@
+.packages-payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.packages-payments .content-container .image-gallery .image.temple {
+  background: url(../img/pcv-templo-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.packages-payments .content-container .image-gallery .image.torre {
+  background: url(../img/pcv-torre-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.packages-payments .content-container .image-gallery .image.pessoa {
+  background: url(../img/pcv-pessoa-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.packages-payments .content-container .image-gallery .image.colspan-3 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .packages-payments .content-container .image-gallery .image.temple {
+    background: url(../img/pcv-temple-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .packages-payments .content-container .image-gallery .image.torre {
+    background: url(../img/pcv-torre-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .packages-payments .content-container .image-gallery .image.pessoa {
+    background: url(../img/pcv-pessoa-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .packages-payments .content-container .image-gallery .image.temple {
+    background: url(../img/package-japan.desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .packages-payments .content-container .image-gallery .image.torre {
+    background: url(../img/package-torre.desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .packages-payments .content-container .image-gallery .image.pessoa {
+    background: url(../img/package-people.desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .packages-payments .content-container .text-content {
+    width: 360px;
+  }
+
+  .packages-payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .packages-payments .content-container .image-gallery {
+    width: 790px;
+    margin: 0;
+  }
+}
